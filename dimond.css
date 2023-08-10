@@ -1,0 +1,122 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.logo{
+     width: 20%;
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+}
+.logo img{
+     background-color: rgba(255, 255, 255, 0.31);
+     width: 70%;
+     border: 3px solid white;
+     border-radius: 200px;
+}
+.logo img:hover{
+     background-color: white;
+     box-shadow:rgba(255, 255, 255, 0.292) 3px 3px 30px;
+
+}
+.navbar{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: sticky;
+     top: 0;
+     cursor:auto;
+}
+.listnavbar{
+     width: 50%;
+     /* background-color: rgba(0, 0, 0, 0.263); */
+     display: flex;
+     align-items: center;
+}
+.listnavbar li{
+     list-style-type: none;
+     padding: 26px 30px;
+}
+.listnavbar li a{
+     padding: 20px 15px;
+     color: white;
+     text-decoration: none;
+      
+}
+.listnavbar li a:hover{
+     /* padding: 20px 20px; */
+     color: rgba(199, 198, 198, 0.25);
+     border-top: 5px solid white;
+     
+}
+.navright{
+     width: 50%;
+     text-align: right;
+     padding: 0 23px;
+}
+#search{
+     padding: 5px;
+     font-size: 17px;
+     border: 3px solid rgba(0, 0, 0, 0.356);
+     border-radius: 9px;
+}
+.background{
+     background: rgba(0, 0,0,0.7) url('/img/102.jpg.webp');
+     background-size: cover;
+     background-blend-mode: darken;
+}
+.section1{
+     height: 100vh;
+}
+.box1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     max-width: 50%;
+     margin: auto;
+     height: 80%;
+}
+.firsth{
+     flex-direction: column;
+     width: 80%;
+     display: flex;
+     justify-content: center;
+}
+.secondh{
+     width: 30%;
+}
+.secondh img{
+     width: 100%;
+     border: 5px solid rgb(253, 252, 252);
+     border-radius: 200px;
+     display: block;
+     margin: auto;
+}
+.secondh img:hover{
+     box-shadow:rgba(255, 255, 255, 0.292) 3px 3px 50px;
+     background-image:linear-gradient(rgba(249, 244, 244, 0.848), rgba(244, 234, 234, 0.115)), url('/img/');
+}
+.big{
+     font-size: 43px;
+}
+.small{
+     font-size: 18px;
+}
+.btn2{
+     padding: 8px 20px;
+     margin: 7px 3px;
+     border: 2px solid white;
+     border-radius: 8px;
+     font-size: 16px;
+     background: none;
+     color: white;
+     cursor: pointer;
+     box-shadow:rgba(255, 255, 255, 0.292) 3px 3px 10px;
+}
+.btn2:hover{
+     background-color: rgba(240, 255, 255, 0.19);
+     box-shadow: none;
+}
